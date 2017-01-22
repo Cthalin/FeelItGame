@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ed2e86261f577654abac4c9c17af42d9
+timeCreated: 1483708700
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mobile Sans
+  fontNames:
+  - Mobile Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: da859611ac75ff244a367f07eebb1b5a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e5eacdaf0666d6e4d9155008cb465f87
+timeCreated: 1483708700
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Vanlose BookType
+  fontNames:
+  - Vanlose BookType
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

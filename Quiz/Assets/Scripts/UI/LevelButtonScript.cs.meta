@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4042f4620dcf2114787e508702674666
+timeCreated: 1483530588
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - LevelText: {instanceID: 0}
+  - LockedIcon: {fileID: 194170, guid: da125efefe7388e4aab8ebb85266b3d9, type: 2}
+  - Star1: {fileID: 114578, guid: ab4c7b3acb4cc5149a0a50f1fc601955, type: 2}
+  - Star2: {fileID: 159230, guid: 00a8bf82550a9ad4a9c82bd3a2008f9c, type: 2}
+  - Star3: {fileID: 154378, guid: 433d830b13cea3549952187fd8ad9f87, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

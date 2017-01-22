@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8cbae9ccf52cb374aa02608647e42fe5
+timeCreated: 1483531015
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - LevelButton: {instanceID: 0}
+  - Spacer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
