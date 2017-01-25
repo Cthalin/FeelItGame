@@ -21,21 +21,14 @@ public class LevelManagerScript: MonoBehaviour
 	public Transform Spacer;
 	public List<Level> LevelList;
 
-	// Use this for initialization
 	void Start ()
 	{
 		//DeleteAll ();
-//////place in Panel as a permanet button function
+        //place in Panel as a permanet button function
 		FillList();
 	}
 
-	// Update is called once per frame
-/*	void Update () {
-
-	}
-*/
-
-void FillList()
+    void FillList()
 	{
 			foreach(var level in LevelList)
 			{
@@ -92,7 +85,7 @@ void FillList()
 
 	void DeleteAll()
 	{
-		PlayerPrefs.DeleteAll (); //delete everything to rnu script properly
+		PlayerPrefs.DeleteAll (); //delete everything to run script properly
 	}
 
 	void LoadLevels(string value)
