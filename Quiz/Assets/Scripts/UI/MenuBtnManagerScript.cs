@@ -9,20 +9,22 @@ public class MenuBtnManagerScript : MonoBehaviour
 		SceneManager.LoadScene ("HardFeelings_Menu");
 	}
 
-	public void realFeelingsLevels (){
-	}
+
+    public void ExitGameLevelBtn(string exitGame)
+    {
+        SceneManager.LoadScene("Feelings_UI");
+    }
 
 
 
 
 
-
-	public void ExitGameBtn()
+    public void ExitGameBtn()
 	{
 		#if UNITY_EDITOR
 		UnityEditor.EditorApplication.isPlaying = false;
-		#else
+        #else
 		Application.Quit();
-		#endif
-	}
+#endif
+    }
 }
