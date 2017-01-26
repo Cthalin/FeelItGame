@@ -12,14 +12,20 @@ public class QuizPanelController : MonoBehaviour {
     private Text ButtonLabel;
     [SerializeField]
     private GameObject ButtonSpacer;
+    [SerializeField]
+    private Text HeaderLabel;
+    [SerializeField]
+    private int maxQuizNo;
 
     private List<GameObject> quizButtonList = new List<GameObject>();
     private List<string> trueFeelingsList = new List<string>();
     private List<string> falseFeelingsList = new List<string>();
     string[] rand = new string[4];
+    private int quizNo;
 
     public void Awake()
     {
+        quizNo = 0;
         string[] lines = System.IO.File.ReadAllLines(@"Assets/Resources/TrueFeelings.txt");
         for(int i = 0; i < lines.Length; i++)
         {
@@ -40,7 +46,7 @@ public class QuizPanelController : MonoBehaviour {
         for (int i = 0; i < 4; i++)
         {
             quizButtonList.Add(Instantiate(QuizButton));
-            quizButtonList[i].GetComponent<QuizButtonController>().Setup(rand[i]+" "+i); //TODO: Remove string addition! Just for debug
+            quizButtonList[i].GetComponent<QuizButtonController>().Setup(rand[i]+" "+i,gameObject); //TODO: Remove string addition! Just for debug
         }
 
         quizButtonList[0].GetComponent<QuizButtonController>().SetCorrectOne();
@@ -64,5 +70,11 @@ public class QuizPanelController : MonoBehaviour {
         }
 
         return buttons;
+    }
+
+    public void IncreaseQuizNumber()
+    {
+        quizNo++;
+        HeaderLabel.text = quizNo + "/" + maxQuizNo;
     }
 }
